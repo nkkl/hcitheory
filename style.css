@@ -1,0 +1,45 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300);
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+
+h1, h2, h3 {
+	font-weight: 100;
+}
+
+h1 {
+	font-size: 500%;
+	line-height: 1em;
+}
+
+h2 {
+	font-size: 300%;
+	line-height: 1em;
+}
+
+/** MAIN PAGE **/
+#newbicycle {
+	max-width: 60em;
+	margin: 2em auto;
+	overflow: hidden;
+}
+
+#answer {
+	margin-top: 2em;
+	float: right;
+}
+
+#answer a {
+	color: blue;
+	text-decoration: none;
+	font-weight: inherit;
+}
+
+#answer a:hover, #answer a:active {
+	color: dodgerBlue;
+	text-decoration: underline;
+}
