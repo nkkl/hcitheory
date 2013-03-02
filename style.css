@@ -45,18 +45,28 @@ a:hover, a:active {
 	overflow: none;
 }
 
+#newbicycle p {
+	max-width: 35em;
+	margin: auto;
+}
+
 #answer {
+	max-width: 40em;
 	float: right;
+}
+
+#answer p {
+	margin-right: 0;
 }
 
 #all {
 	font-size: 75%;
-	margin-top: 6em;
+	margin: 6em auto;
 	float: right;
 }
 
 .wrapper {
-	overflow: none;
+	overflow: hidden;
 	position: relative;
 	padding-bottom: 1em;
 }
