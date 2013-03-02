@@ -19,27 +19,51 @@ h1 {
 h2 {
 	font-size: 300%;
 	line-height: 1em;
+	margin-top: 1em;
+}
+
+a {
+	color: blue;
+	text-decoration: none;
+}
+
+h1 a, h2 a, h3 a {
+	color: inherit;
+	text-decoration: none;
+	font-weight: inherit;
+}
+
+a:hover, a:active {
+	color: dodgerBlue;
+	text-decoration: underline;
 }
 
 /** MAIN PAGE **/
 #newbicycle {
 	max-width: 60em;
-	margin: 2em auto;
-	overflow: hidden;
+	margin: 4em auto;
+	overflow: none;
 }
 
 #answer {
-	margin-top: 2em;
 	float: right;
 }
 
-#answer a {
-	color: blue;
-	text-decoration: none;
-	font-weight: inherit;
+#all {
+	font-size: 75%;
+	margin-top: 6em;
+	float: right;
 }
 
-#answer a:hover, #answer a:active {
-	color: dodgerBlue;
-	text-decoration: underline;
+.wrapper {
+	overflow: none;
+	position: relative;
+	padding-bottom: 1em;
+}
+
+#footer {
+	clear: both;
+	position: absolute;
+	bottom: 1em;
+	right: 1em;
 }
