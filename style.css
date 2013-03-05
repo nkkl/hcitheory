@@ -48,6 +48,7 @@ a:hover, a:active {
 #newbicycle p {
 	max-width: 35em;
 	margin: auto;
+	margin-bottom: 1em;
 }
 
 #answer {
@@ -62,7 +63,7 @@ a:hover, a:active {
 #all {
 	font-size: 75%;
 	margin: 6em auto;
-	float: right;
+	text-align: right;
 }
 
 .wrapper {
