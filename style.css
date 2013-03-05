@@ -51,6 +51,16 @@ a:hover, a:active {
 	margin-bottom: 1em;
 }
 
+#newbicycle ul, #newbicycle ol {
+	max-width: 35em;
+	margin: auto;
+	margin-bottom: 1em;
+}
+
+#newbicycle li {
+	margin-left: 2.5em;
+}
+
 #answer {
 	max-width: 40em;
 	float: right;
