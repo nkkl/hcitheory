@@ -61,6 +61,20 @@ a:hover, a:active {
 	margin-left: 2.5em;
 }
 
+#newbicycle table {
+	max-width: 35em;
+	margin: 1em auto;
+}
+
+#newbicycle th {
+	font-weight: bold;
+	text-align: center;
+}
+
+#newbicycle td {
+	padding: .5em;
+}
+
 #answer {
 	max-width: 40em;
 	float: right;
