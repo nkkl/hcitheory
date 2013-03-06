@@ -45,6 +45,12 @@ a:hover, a:active {
 	overflow: none;
 }
 
+#newbicycle h3 {
+	max-width: 30em;
+	margin: auto;
+	font-size: 150%;
+}
+
 #newbicycle p {
 	max-width: 35em;
 	margin: auto;
