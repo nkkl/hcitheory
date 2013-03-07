@@ -1,9 +1,9 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:100,300,300italic);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300);
 
 * {
 	padding: 0;
 	margin: 0;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
 }
 
@@ -39,7 +39,7 @@ p em {
 }
 
 a {
-	color: #00475E;
+	color: #00BFFF;
 	text-decoration: none;
 }
 
@@ -65,7 +65,7 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 	color: #00475E;
 }
 
-/** MAIN PAGE **/
+/** NEW BICYCLE **/
 #newbicycle {
 	max-width: 50em;
 	margin: 4em auto;
@@ -79,13 +79,13 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 }
 
 #newbicycle p {
-	max-width: 35em;
+	max-width: 30em;
 	margin: auto;
 	margin-bottom: 1em;
 }
 
 #newbicycle ul, #newbicycle ol {
-	max-width: 35em;
+	max-width: 30em;
 	margin: auto;
 	margin-bottom: 1em;
 }
@@ -95,7 +95,7 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 }
 
 #newbicycle table {
-	max-width: 35em;
+	max-width: 30em;
 	margin: 1em auto;
 }
 
