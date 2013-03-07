@@ -30,7 +30,7 @@ h2 {
 	margin-top: 1em;
 }
 
-p {
+p, ol, li, table {
 	font-size: 125%;
 	line-height: 1.25em;
 }
