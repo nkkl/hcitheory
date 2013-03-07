@@ -30,13 +30,18 @@ h2 {
 	margin-top: 1em;
 }
 
-p, ol, li, table {
+p {
 	font-size: 125%;
 	line-height: 1.25em;
 }
 
 p em {
 	color: white;
+}
+
+ol, li, table {
+	font-size: 1.1em;
+	line-height: 1.25em;
 }
 
 a {
