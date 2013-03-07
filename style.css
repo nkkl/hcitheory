@@ -140,3 +140,43 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 .calmem em {
 	color: inherit;
 }
+
+/** HOVER POPOVERS **/
+#newbicycle .parent {
+	position: relative;
+	display: inline-block;
+}
+
+.popover {
+	display: none;
+	position: absolute;
+	bottom: 100%;
+	left: -25%;
+	margin-bottom: 10px;
+	padding: .5em;
+	background: #222;
+	min-width: 20em;
+	font-size: .9em;
+	line-height: 1em;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	box-shadow: 2px 2px 2px #666;
+}
+
+.popovercorner {
+	display: none;
+	position: absolute;
+	bottom: 100%;
+	left: 25%;
+	border-left: 20px solid #222;
+	border-bottom: 15px solid transparent;
+}
+
+#newbicycle .parent:hover .popover {
+	display: inline-block;
+}
+
+#newbicycle .parent:hover .popovercorner {
+	display: block;
+}
