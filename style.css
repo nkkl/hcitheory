@@ -1,15 +1,21 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400);
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,300italic);
 
 * {
 	padding: 0;
 	margin: 0;
 	font-family: 'Lato', sans-serif;
-	font-weight: 400;
+	font-weight: 300;
+}
+
+body {
+	background: url("mochaGrunge.png");
+	color: #DDD;
 }
 
 h1, h2, h3 {
-	font-weight: 400;
+	font-weight: 100;
 	margin-bottom: 10px;
+	color: white;
 }
 
 h1 {
@@ -25,12 +31,21 @@ h2 {
 
 p {
 	font-size: 125%;
-	line-height: 1.3em;
+	line-height: 1.25em;
+}
+
+p em {
+	color: white;
 }
 
 a {
-	color: blue;
+	color: #00475E;
 	text-decoration: none;
+}
+
+a:hover, a:active {
+	color: #2AB2DE;
+	text-decoration: underline;
 }
 
 .lock {
@@ -46,9 +61,8 @@ h1 a, h2 a, h3 a {
 	font-weight: inherit;
 }
 
-a:hover, a:active {
-	color: dodgerBlue;
-	text-decoration: underline;
+h1 a:hover, h2 a:hover, h3 a:hover {
+	color: #00475E;
 }
 
 /** MAIN PAGE **/
