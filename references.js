@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	// TODO: everything
+
 	var references = {
 		'abrahamsen1': 'Abrahamsen, P., Chen, C., Feng, J., &amp; Manohar, A. (2013). Bruno Latour. In <em>HCDE 501 Winter 2013 Major Figure Presentations</em>. Retrieved from <a class="lock" href="https://catalyst.uw.edu/gopost/conversation/zachry/751156">https://catalyst.uw.edu/gopost/conversation/zachry/751156</a>',
 		'abrahamsen2': 'Abrahamsen, P., Goist, Z., &amp; Sparling, J. (2013). Semiotics. In <em>HCDE 501 Winter 2013 Major Figure Presentations</em>. Retrieved from <a class="lock" href="https://catalyst.uw.edu/gopost/conversation/zachry/741724">https://catalyst.uw.edu/gopost/conversation/zachry/741724</a>',
