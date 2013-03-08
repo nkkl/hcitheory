@@ -1,12 +1,8 @@
 $(document).ready(function() {
 	// TODO: everything
 	var references = {
-<<<<<<< HEAD
 		'abrahamsen1': 'Abrahamsen, P., Chen, C., Feng, J., &amp; Manohar, A. (2013). Bruno Latour. In <em>HCDE 501 Winter 2013 Major Figure Presentations</em>. Retrieved from <a class="lock" href="https://catalyst.uw.edu/gopost/conversation/zachry/751156">https://catalyst.uw.edu/gopost/conversation/zachry/751156</a>',
 		'abrahamsen2': 'Abrahamsen, P., Goist, Z., &amp; Sparling, J. (2013). Semiotics. In <em>HCDE 501 Winter 2013 Major Figure Presentations</em>. Retrieved from <a class="lock" href="https://catalyst.uw.edu/gopost/conversation/zachry/741724">https://catalyst.uw.edu/gopost/conversation/zachry/741724</a>',
-=======
-		'abrahamsen': 'Abrahamsen, P., Chen, C., Feng, J., & Manohar, A. (2013). Bruno Latour. In HCDE 501 Winter 2013 Major Figure Presentations. Retrieved from <a href="https://catalyst.uw.edu/gopost/conversation/zachry/751156" class="lock">https://catalyst.uw.edu/gopost/conversation/zachry/751156</a>',
->>>>>>> updated link colors, added refs to all.html
 		'addepalli': 'Addepalli, D., Foshee, R., Oldham, S., &amp; Xue, J. (2013). Terry Winograd. In <em>HCDE 501 Winter 2013 Major Figure Presentations</em>. Retrieved from <a class="lock" href="https://catalyst.uw.edu/gopost/conversation/zachry/741744">https://catalyst.uw.edu/gopost/conversation/zachry/741744</a>',
 		'bharadwaj': 'Bharadwaj, S., Lee, N., Pledger, L., &amp; V., A. (2013). Susan B&oslash;dker. In <em>HCDE 501 Winter 2013 Major Figure Presentations</em>. Retrieved from <a class="lock" href="https://catalyst.uw.edu/gopost/conversation/zachry/748372">https://catalyst.uw.edu/gopost/conversation/zachry/748372</a>',
 		'bowker': 'Bowker, Geoffrey C., and Susan Leigh Star. &ldquo;How things (actor-net) work: Classification, magic and the ubiquity of standards.&rdquo; <em>Philosophia</em> 25.3-4 (1996): 195-220',
