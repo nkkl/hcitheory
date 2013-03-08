@@ -45,17 +45,17 @@ ol, li, table {
 }
 
 a {
-	color: #00BFFF;
+	color: #8CD1FF;
 	text-decoration: none;
 }
 
 a:hover, a:active {
-	color: #2AB2DE;
+	color: #00475E;
 	text-decoration: underline;
 }
 
 .lock {
-	padding-right: 12px;
+	padding-right: 16px;
 	background-image: url("lock.png");
 	background-position: right;
 	background-repeat: no-repeat;
@@ -159,7 +159,7 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 	left: -25%;
 	margin-bottom: 10px;
 	padding: .5em;
-	background: #222;
+	background: #444;
 	min-width: 20em;
 	font-size: .9em;
 	line-height: 1em;
@@ -169,12 +169,16 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 	box-shadow: 2px 2px 2px #666;
 }
 
+.popover a:hover, .popover a:active {
+	color: #2AB2DE;
+}
+
 .popovercorner {
 	display: none;
 	position: absolute;
 	bottom: 100%;
 	left: 25%;
-	border-left: 20px solid #222;
+	border-left: 20px solid #444;
 	border-bottom: 15px solid transparent;
 }
 
